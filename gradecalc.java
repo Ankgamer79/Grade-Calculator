@@ -2,7 +2,7 @@ import java.util.Random;
 
 public class gradecalc {
     public static void main(String[] args) {
-        Random random = new Random();
+        Random rand = new Random();
 
         for (int i = 1; i <= 5; i++) {
             int grade = random.nextInt(101);
